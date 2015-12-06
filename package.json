@@ -6,15 +6,21 @@
   "dependencies": {
     "angular2": "2.0.0-alpha.44",
     "es6-shim": "^0.33.13",
+    "express": "^4.13.3",
     "systemjs": "0.19.2"
   },
   "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "jshint-stylish": "^2.1.0",
     "live-server": "^0.8.2",
     "typescript": "^1.7.3"
   },
   "scripts": {
     "tsc": "tsc -p src -w",
-    "start": "live-server --open=src"
+    "start": "live-server --open=src",
+    "serve": "node server.js"
   },
   "keywords": [],
   "author": "",
